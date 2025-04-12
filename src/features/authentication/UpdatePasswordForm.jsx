@@ -3,9 +3,8 @@ import Button from "../../ui/Button";
 import Form from "../../ui/Form";
 
 import Input from "../../ui/Input";
-
-import { useUpdateUser } from "./useUpdateUser";
 import FormRow from "../../ui/formRow";
+import { useUpdateUser } from "./useUpdateUser";
 
 function UpdatePasswordForm() {
   const { register, handleSubmit, formState, getValues, reset } = useForm();
